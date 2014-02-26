@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.deck-container {
+  perspective: 1000;
+  width: 90%;
+  margin: 3em auto 0 auto;
+  text-align: center;
+}
+
+ryan-card {
+  margin-left: -170px;
+}
