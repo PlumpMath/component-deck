@@ -1,4 +1,4 @@
 To run
 ==============
 
-Open or host ```index.html```
+Open or host ```card.html```
