@@ -1,6 +1,7 @@
 window.onload = function() {
   var suits = ['♠', '♣', '♥', '♦'],
-      deck = [];
+      deck = [],
+      container = document.querySelector('.deck-container');
 
   /**
    * @constructor
@@ -24,6 +25,6 @@ window.onload = function() {
   }
 
   for (var k in deck) {
-    document.querySelector('.deck-container').appendChild(deck[k]);
+    container.appendChild(deck[k]);
   }
 };
